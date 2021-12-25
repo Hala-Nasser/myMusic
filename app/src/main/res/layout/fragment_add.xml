@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Fragments.AddFragment"
+    android:layout_gravity="left">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/cancel_song"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="start"
+            android:src="@drawable/ic_cancel"
+            android:tint="@color/hala3" />
+
+        <ImageView
+            android:id="@+id/add_song"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="300dp"
+            android:src="@drawable/ic_check"
+            android:tint="@color/hala3" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/add_song_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="left"
+        android:src="@drawable/ic_add_a_photo" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Song name"
+        android:textColor="@color/hala3"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/add_song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:paddingStart="5dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Type of song"
+        android:textColor="@color/hala3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/add_song_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:paddingStart="5dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Adder of song"
+        android:textColor="@color/hala3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/add_song_adder_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:paddingStart="5dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="words of song"
+        android:textColor="@color/hala3"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/add_song_words"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="left"
+        android:inputType="textMultiLine"
+        android:paddingStart="5dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+</LinearLayout>

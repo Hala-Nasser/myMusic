@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.EditProfileFragment"
+    android:layout_gravity="left">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/cancel"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="start"
+                android:src="@drawable/ic_cancel"
+                android:tint="@color/hala3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/check"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_check"
+                android:tint="@color/hala3"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/editprofile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_add_a_photo" />
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_profile"
+                android:tint="@color/hala3"/>
+
+            <EditText
+                android:id="@+id/editprofile_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="Username"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_email_black_24dp"
+                android:tint="@color/hala3"/>
+
+            <TextView
+                android:id="@+id/editprofile_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="Email"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_pass"
+                android:tint="@color/hala3"/>
+
+            <TextView
+                android:id="@+id/editprofile_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="Password"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="#000"/>
+            <ImageView
+                android:id="@+id/change_pass"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="190dp"
+                android:src="@drawable/ic_move"
+                android:tint="@color/hala3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_phone_android_black_24dp"
+                android:tint="@color/hala3"/>
+
+            <EditText
+                android:id="@+id/editprofile_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="Phone number"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_profile"
+                android:tint="@color/hala3"/>
+
+            <TextView
+                android:id="@+id/editprofile_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="Gender"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textStyle="bold"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_face_black" />
+
+            <EditText
+                android:id="@+id/editprofile_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:hint="Birthday"
+                android:layout_marginLeft="20dp"
+                android:text=""
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

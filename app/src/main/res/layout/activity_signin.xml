@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".SigninActivity"
+    android:background="@drawable/back_color"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/cloud_music_icon"
+        android:layout_marginTop="20dp"/>
+
+
+
+        <EditText
+            android:id="@+id/signin_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:background="@drawable/edit_text"
+            android:paddingStart="10dp"
+            android:textColorHint="#5f5f5f"/>
+
+
+        <EditText
+            android:id="@+id/signin_pass"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:background="@drawable/edit_text"
+            android:paddingStart="10dp"
+            android:textColorHint="#5f5f5f"/>
+
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="Sign In"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Not a memeber? Sign up now."
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+</LinearLayout>

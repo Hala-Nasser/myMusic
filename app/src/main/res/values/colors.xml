@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#292b3d</color>
+    <color name="grayLight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="hala">#1C2877</color>
+    <color name="hala2">#09c6df</color>
+    <color name="hala3">#44abdd</color>
+
+
+</resources>

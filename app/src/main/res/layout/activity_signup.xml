@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_color"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".SignupActivity"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/cloud_music_icon"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/signup_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:paddingStart="10dp"
+        android:textColorHint="#5f5f5f"/>
+
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text"
+        android:textColorHint="#5f5f5f"
+        android:paddingStart="10dp"/>
+
+
+    <EditText
+        android:id="@+id/signup_pass"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text"
+        android:textColorHint="#5f5f5f"
+        android:paddingStart="10dp"/>
+
+
+    <EditText
+        android:id="@+id/signup_confirm_pass"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text"
+        android:textColorHint="#5f5f5f"
+        android:paddingStart="10dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender: "
+            android:textColor="#0f0f0f"
+            android:textSize="20sp"
+            android:layout_gravity="left"/>
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Male"
+            android:checked="true"
+            android:textColor="#0f0f0f"
+            android:textSize="20sp"
+            android:layout_gravity="left"/>
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Female"
+            android:textColor="#0f0f0f"
+            android:textSize="20sp"
+            android:layout_gravity="left"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Already registered! Sign in."
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

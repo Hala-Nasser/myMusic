@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/song_image"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+
+                    <TextView
+                        android:id="@+id/song_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/hala3"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/song_adder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/hala2"
+                        android:textSize="14sp"
+                        android:padding="5dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

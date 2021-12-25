@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_gravity="left">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Categories"
+        android:textColor="#1C2877"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#f5f5f5"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:id="@+id/romantic_songs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/romantic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:text="Romantic Songs"
+                android:textColor="#000"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="#f5f5f5"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:id="@+id/tragedy_songs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/tragedy" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:text="Tragedy Songs"
+                android:textColor="#000"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="#f5f5f5"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:id="@+id/national_songs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/national" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:text="National Songs"
+                android:textColor="#000"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="#f5f5f5"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:id="@+id/dance_songs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:text="Dance Songs"
+                android:textColor="#000"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
